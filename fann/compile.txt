@@ -1,0 +1,4 @@
+g++ train.cpp `pkg-config --libs --cflags fann` -otrain
+./train
+g++ test.cpp `pkg-config --libs --cflags fann` -otest
+./test
